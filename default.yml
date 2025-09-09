@@ -27,5 +27,5 @@ org_settings:
     enable_software_inventory: true
   webhook_settings:
     activity_webhooks:
-      enable_activity_webhooks: true
+      enable_activities_webhooks: true
       destination_url: https://webhook.site/adccc57d-c6c9-45a8-9133-af37df06fcd0
