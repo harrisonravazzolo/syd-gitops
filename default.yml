@@ -19,9 +19,13 @@ org_settings:
   server_settings:
     server_url: $FLEET_URL
   org_info:
-    org_name: Fleet
+    org_name: Sydney GitOps
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
   features:
     enable_host_users: true
     enable_software_inventory: true
+  webhook_settings:
+    activity_webhooks:
+      enable_activity_webhooks: true
+      destination_url: https://webhook.site/adccc57d-c6c9-45a8-9133-af37df06fcd0
